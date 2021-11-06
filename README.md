@@ -23,22 +23,26 @@ We are using a dataset provided by the Autolib electric cars company. Below is t
 #HYPOTHESIS TESTING PROCEDURE
 
 #Step 1.
+
 Stating the hypothesis
 Null Hypothesis - The number of Utilib 1.4 taken over the weekend is equal to the number of Utilib 1.4 electric cars returned on the weekend.
 Alternative hypothesis - The number of Utilib 1.4 taken over the weekend is not equal to the number of Utilib 1.4 electric cars returned on the weekend.
 
 #Step 2.
+
 Defining the population
 from the dataset l selected the columns that l will be working with for my hypothesis testing.
 I selected the Utilib 1.4 taken and Utilib 1.4 returned during the weekends
 
 #Step 3.
+
 Sample size
 From my sample population l used simple random sampling to select my sample size . My sample size was 20.
 sample_Utilib 1.4 Return sum = [ 2, 15,  2,  1,  3,  2,  0,  1,  7, 37,  0,  0,  2, 10,  1,  1, 20,13, 22,  0]
 Sample_utilib 1.4 Taken sum = [1, 13,  3,  2,  4,  1,  0,  1,  5, 35,  0,  0,  1, 10,  0,  3, 19, 10, 22,  0]
 
 #Step 4.
+
 Computing the test value and p-value and alpha level
 My alpha level = 0.05
 I used two sample t-test because;
